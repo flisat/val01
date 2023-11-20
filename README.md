@@ -1,5 +1,16 @@
 # #VAL01
-_Logic Gate - Motor - 8 RGB Leds_
+_8 RGB Leds - Logic Gate - Motor_
+
+## Parts
+### 8 RGB leds
+* When _LogOutPin1_ button is pushed, the 8 leds changed color one after other.
+* Color sequence : white -> red -> green -> blue -> off
+### Logic Gate
+* AND, OR and XOR logic gate with button _LogInPin1_ and _LogInPin2_.
+* Return in led _LogOutPin_.
+* Gate is changed randomly when _LogOutPin1_ is pushed.
+### Motor
+A potentiometer control the motor speed
 
 ## Arduino
 
